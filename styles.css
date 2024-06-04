@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Syne-Mono";
+    src: url(assets/fonts/Syne_Mono/SyneMono-Regular.ttf);
+}
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+
+:root {
+    --blue5: #1A2C49;
+    --blue4: #26426F;
+    --blue3: #335996;
+    --blue2: #3E6FBD; 
+    --blue1: #628BCD;
+}
+
+body {
+    background-color: var(--blue4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* card styling */ 
+
+.card {
+    background-color: var(--blue5);
+    border: 2px solid var(--blue3);
+    border-radius: 0.625rem;
+    max-width: 400px;
+    max-height: 500px;
+    padding: 2rem;
+}    
+
+/* card styling */
+
+/* content styling */ 
+
+.title {
+    color: var(--blue1);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Syne-Mono", sans-serif;
+    transition: 0.2s;   
+}
+
+.title:hover {
+    color:var(--blue2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+td {
+    color: var(--blue2);
+    font-family: "Syne-Mono", sans-serif;
+    border-bottom: 2px solid var(--blue4);
+    text-align: left;
+}
+
+th {
+    color: var(--blue1);
+    font-family:'Courier New', Courier, monospace;
+    border-bottom: 2px solid var(--blue4);
+    text-align: right;
+}
+
+/* content styling */
